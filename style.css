@@ -1,0 +1,156 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  gray;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.components {
+    float: left;
+    width: 96%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Spark {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    text-align: right;
+    position: relative;
+    width: 30%;
+    height: 210px;
+    float: left;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: auto;
+    float: right;
+}
+
+.spark {
+    font-size: 50%;
+    width: auto;
+    height: 145px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.Air {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    text-align: right;
+    position: relative;
+    width: 30%;
+    height: 210px;
+    float: left;
+    margin: 10px;
+}
+
+.blue {
+    background-color: blue;
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: auto;
+    float: right;
+}
+
+.air {
+    font-size: 50%;
+    width: auto;
+    height: 145px;
+    text-align: left;
+    position: relative;
+    padding: 1px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.Fuel {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    text-align: right;
+    position: relative;
+    width: 30%;
+    height: 210px;
+    float: left;
+    margin: 10px;
+
+}
+
+.fuel {
+    font-size: 50%;
+    width: auto;
+    height: 145px;
+    text-align: left;
+    position: relative;
+    padding: 1px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.green {
+    background-color: green;
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: auto;
+    float: right;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .components {
+        display: block;
+    }
+    .Spark {
+        min-width: 46%;
+    }
+    .Air {
+        min-width: 46%;
+    }
+    .Fuel {
+        min-width: 95.5%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+    .components {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .Spark {
+        min-width: 100%;
+    }
+    .Air {
+        min-width: 100%;
+    }
+    .Fuel {
+        min-width: 100%;
+    }
+}
